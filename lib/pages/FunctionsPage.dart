@@ -4,10 +4,7 @@ import 'package:jiaowuassistent/pages/CourseCenterPage.dart';
 import 'package:jiaowuassistent/pages/EmptyRoomPage.dart';
 import 'package:jiaowuassistent/pages/ScorePage.dart';
 import 'package:jiaowuassistent/pages/CourseTablePage.dart';
-<<<<<<< HEAD
-=======
 import 'package:jiaowuassistent/pages/CourseEvaluationPage.dart';
->>>>>>> 547a341021083e6ea4e33b5cc77dc3ef02ad9355
 
 class FunctionsPage extends StatelessWidget {
   // 图标函数，其中page 参数需要给出页面函数
@@ -97,9 +94,6 @@ class FunctionsPage extends StatelessWidget {
                     ),
                     Text("课表查询"),
                     CourseTablePage()),
-<<<<<<< HEAD
-
-=======
                 _block(
                     context,
                     Icon(
@@ -108,7 +102,6 @@ class FunctionsPage extends StatelessWidget {
                     ),
                     Text("课程评价"),
                     CourseEvaluationPage()),
->>>>>>> 547a341021083e6ea4e33b5cc77dc3ef02ad9355
 //                _block(context, Icon(Icons.date_range, size: 40,), Text("未知"), ScorePage()),
               ],
             )
